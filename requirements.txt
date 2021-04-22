@@ -86,4 +86,3 @@ wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.1
 wrapt==1.12.1
-wxPython==4.1.1
