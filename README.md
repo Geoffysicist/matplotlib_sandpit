@@ -1,7 +1,10 @@
 # matplotlib_sandpit
 
-maybe this is the simplest:
+possibly the simplest solutions:
 https://realpython.com/lessons/interactive-mode/
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pause.html#matplotlib.pyplot.pause
+https://matplotlib.org/stable/api/animation_api.html#module-matplotlib.animation
+
 
 or this
 
