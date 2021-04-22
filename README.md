@@ -88,3 +88,5 @@ ani = animation.FuncAnimation(fig, animate, xrange(1, 200),
                               interval=0, blit=True)
 plt.show()
 ```
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Geoffysicist/matplotlib_sandpit/HEAD?filepath=interactive.ipynb)
