@@ -1,5 +1,10 @@
 # matplotlib_sandpit
 
+maybe this is the simplest:
+https://realpython.com/lessons/interactive-mode/
+
+or this
+
 from https://www.javaer101.com/en/article/3286817.html
 
 1) Calling fig.canvas.draw() redraws everything. It's your bottleneck. In your case, you don't need to re-draw things like the axes boundaries, tick labels, etc.
