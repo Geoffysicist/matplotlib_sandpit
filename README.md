@@ -14,6 +14,7 @@ However, without knowing a bit more about what you're doing, I can't help you th
 
 Nonetheless, there is a gui-neutral way of doing it that is still reasonably fast.
 
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 import time
@@ -46,6 +47,7 @@ for i in xrange(1, 2000):
         fig.canvas.blit(ax.bbox)
 
 print 'FPS:' , 2000/(time.time()-tstart)
+```
 
 This gives me ~200fps.
 
@@ -53,6 +55,7 @@ To make this a bit more convenient, there's an animations module in recent versi
 
 As an example:
 
+```python
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
@@ -76,3 +79,4 @@ def animate(i):
 ani = animation.FuncAnimation(fig, animate, xrange(1, 200), 
                               interval=0, blit=True)
 plt.show()
+```
