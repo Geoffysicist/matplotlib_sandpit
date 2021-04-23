@@ -3,8 +3,11 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Geoffysicist/matplotlib_sandpit/HEAD?filepath=interactive.ipynb)
 
 possibly the simplest solutions:
+
 https://realpython.com/lessons/interactive-mode/
+
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pause.html#matplotlib.pyplot.pause
+
 https://matplotlib.org/stable/api/animation_api.html#module-matplotlib.animation
 
 
